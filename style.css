@@ -1,0 +1,27 @@
+body {
+  height: 100%;
+}
+h1 {
+  text-align: center;
+}
+#banner {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#timer {
+  position: relative;
+  min-height: 50%;
+  /* border: 3px solid #53a7ea; */
+  text-align: center;
+  font-size: 60px;
+  margin: 2rem;
+}
+#or {
+  font-size: 1rem;
+}
+#emp {
+  color: orangered;
+}
