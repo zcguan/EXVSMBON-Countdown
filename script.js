@@ -11,6 +11,7 @@ Date.prototype.addDays = function (days) {
 
 function setCountDown(currentDate, dayOfWeek) {
   var date = new Date(countDownDate);
+  currentDate = new Date(currentDate);
   date.setMonth(currentDate.getMonth());
   date.setDate(
     currentDate.getDate() + ((dayOfWeek + 7 - currentDate.getDay()) % 7)
