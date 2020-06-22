@@ -71,7 +71,7 @@ var x = setInterval(function () {
   // Get today's date and time
   var localTime = Date.now();
   // localTime = new Date(localTime).addDays(6);
-  localTime = new Date("July 21 2020 11:59:55 GMT+0900");
+  // localTime = new Date("July 21 2020 11:59:55 GMT+0900");
 
   // Find the distance between now and the count down date
   var distance = countDownDate - localTime;
