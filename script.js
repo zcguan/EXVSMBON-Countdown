@@ -83,11 +83,11 @@ var x = setInterval(function () {
         document.getElementById("titleMsg").innerHTML =
           "MBON on going! </br> Time left:";
       } else {
-        document.getElementById("titleMsg").innerHTML = "离MBON还有:";
+        document.getElementById("titleMsg").innerHTML = "MBON playable in:";
       }
     } else {
       clearInterval(x);
-      document.getElementById("titleMsg").innerHTML = "MBON已发售！";
+      document.getElementById("titleMsg").innerHTML = "MBON released！";
       document.getElementById("timer").style.display = "none";
     }
   }
@@ -138,4 +138,20 @@ var x = setInterval(function () {
     Math.floor(distance / 1000) +
     "</span>" +
     "s ";
+
+  var options = {
+    weekday: "short",
+    year: "numeric",
+    month: "numeric",
+    day: "numeric",
+    hour: "numeric",
+    minute: "numeric",
+  };
+  document.getElementById("countdownDate").innerHTML =
+    "Time until " +
+    "<span>" +
+    countDownDate.toLocaleString("en-US", options) +
+    " (" +
+    Intl.DateTimeFormat().resolvedOptions().timeZone +
+    ") </span>";
 }, 1000);
