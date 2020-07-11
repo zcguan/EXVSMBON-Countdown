@@ -3,28 +3,28 @@
 var countDownDate = new Date("June 20 2020 12:00:00 GMT+0900");
 const playablePeriods = [
   [
-    new Date("June 20 2020 12:00:00 GMT+0900"),
-    new Date("June 22 2020 12:00:00 GMT+0900"),
+    new Date("June 20 2020 11:55:00 GMT+0900"),
+    new Date("June 22 2020 11:55:00 GMT+0900"),
   ],
   [
-    new Date("June 26 2020 12:00:00 GMT+0900"),
-    new Date("June 29 2020 12:00:00 GMT+0900"),
+    new Date("June 26 2020 11:55:00 GMT+0900"),
+    new Date("June 29 2020 11:55:00 GMT+0900"),
   ],
   [
-    new Date("July 04 2020 12:00:00 GMT+0900"),
-    new Date("July 06 2020 12:00:00 GMT+0900"),
+    new Date("July 04 2020 11:55:00 GMT+0900"),
+    new Date("July 06 2020 11:55:00 GMT+0900"),
   ],
   [
-    new Date("July 11 2020 12:00:00 GMT+0900"),
-    new Date("July 13 2020 12:00:00 GMT+0900"),
+    new Date("July 11 2020 11:55:00 GMT+0900"),
+    new Date("July 13 2020 11:55:00 GMT+0900"),
   ],
   [
-    new Date("July 18 2020 12:00:00 GMT+0900"),
-    new Date("July 20 2020 12:00:00 GMT+0900"),
+    new Date("July 18 2020 11:55:00 GMT+0900"),
+    new Date("July 20 2020 11:55:00 GMT+0900"),
   ],
   [
-    new Date("July 24 2020 12:00:00 GMT+0900"),
-    new Date("July 27 2020 12:00:00 GMT+0900"),
+    new Date("July 24 2020 11:55:00 GMT+0900"),
+    new Date("July 27 2020 11:55:00 GMT+0900"),
   ],
 ];
 const releaseDate = new Date("July 30 2020 0:00:00 GMT+0900");
